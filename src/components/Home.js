@@ -19,7 +19,6 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import './App.css';
 import zIndex from '@material-ui/core/styles/zIndex';
 
 const styles = theme => ({
@@ -122,7 +121,7 @@ const styles = theme => ({
   }
 });
 
-class App extends React.Component {
+class Home extends React.Component {
 
   constructor(props) {
     super(props);
@@ -803,4 +802,4 @@ App.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(App);
+export default withStyles(styles)(Home);
